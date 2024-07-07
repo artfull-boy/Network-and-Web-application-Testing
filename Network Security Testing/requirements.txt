@@ -1,0 +1,5 @@
+openai==0.28.0
+reportlab
+markdown2
+beautifulsoup4
+weasyprint
