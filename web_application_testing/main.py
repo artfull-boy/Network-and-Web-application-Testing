@@ -7,7 +7,7 @@ import openai
 from combine import parse_curl, parse_nikto, parse_wapiti, parse_zap, combine_results
 import json
 import datetime
-from full_report6 import load_json_file, write_to_markdown, chunk_list, get_gpt4_analysis
+from full_report import load_json_file, write_to_markdown, chunk_list, get_gpt4_analysis
 from pdf import generate_pdf
 api_key = os.getenv("OPEN_AI_API_KEY")
 
